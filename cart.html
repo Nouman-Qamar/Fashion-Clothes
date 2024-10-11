@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Anon</title>
+    <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style-cart.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="./assets/images/logo/logo.svg" alt="Anon's logo">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="cart-title">Your Shopping Cart</h1>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="./assets/images/products/jacket-1.jpg" alt="Jacket" class="item-image">
+                    <div class="item-details">
+                        <h2 class="item-name">Relaxed Fit Jacket</h2>
+                        <p class="item-price">$49.99</p>
+                        <div class="item-quantity">
+                            <button class="quantity-btn">-</button>
+                            <input type="number" value="1" min="1" class="quantity-input">
+                            <button class="quantity-btn">+</button>
+                        </div>
+                    </div>
+                    <span class="remove-item">Remove</span>
+                </div>
+                <div class="cart-item">
+                    <img src="./assets/images/products/shirt-1.jpg" alt="T-Shirt" class="item-image">
+                    <div class="item-details">
+                        <h2 class="item-name">Cotton T-Shirt</h2>
+                        <p class="item-price">$24.99</p>
+                        <div class="item-quantity">
+                            <button class="quantity-btn">-</button>
+                            <input type="number" value="2" min="1" class="quantity-input">
+                            <button class="quantity-btn">+</button>
+                        </div>
+                    </div>
+                    <span class="remove-item">Remove</span>
+                </div>
+            </div>
+            <div class="cart-summary">
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>$99.97</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping</span>
+                    <span>$5.00</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span>$104.97</span>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
